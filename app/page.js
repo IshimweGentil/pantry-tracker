@@ -25,9 +25,8 @@ const style = {
   left: "50%",
   transform: "translate(-50%, -50%)",
   width: 400,
-  bgcolor: "#333",
-  border: "2px solid #5e5c5c",
-  boxShadow: 24,
+  bgcolor: "#121212",
+  border: "2px solid #333",
   display: "flex",
   p: 4,
   gap: 3,
@@ -125,9 +124,8 @@ export default function Home() {
                 sx={{ 
                   borderRadius: '8px',
                   input: { color: '#e0e0e0' },
-                  label: { color: '#e0e0e0' }, // Label color
+                  label: { color: '#a3a3a3' }, // Label color
                   fieldset: { borderColor: '#616161' }, // Border color
-                  bgcolor: '#424242' 
                  }} 
               />
               <Button
@@ -170,10 +168,10 @@ export default function Home() {
             onChange={(e) => setSearchQuery(e.target.value)}
             sx={{ mr: 2,
                borderRadius: '8px',
-               input: { color: '#e0e0e0' }, // Text color inside the input
-              label: { color: '#e0e0e0' }, // Label color
-              fieldset: { borderColor: '#616161' }, // Border color
-              bgcolor: '#424242' // Background color of the input field
+               input: { color: '#a3a3a3' }, // Text color inside the input
+              label: { color: '#a3a3a3' }, // Label color
+              fieldset: { borderColor: '#333' }, // Border color
+              bgcolor: '#121212' // Background color of the input field
                }} 
           />
           <Button
